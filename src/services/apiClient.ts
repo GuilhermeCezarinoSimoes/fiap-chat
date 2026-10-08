@@ -5,7 +5,7 @@ import { AppError } from '../utils/errors';
  * URL pública da API de notificações (Vercel). Pode ser sobrescrita pela
  * variável EXPO_PUBLIC_API_URL; não é um segredo.
  */
-const DEFAULT_API_URL = 'https://SEU-PROJETO-API.vercel.app';
+const DEFAULT_API_URL = 'https://fiap-chat-api.vercel.app';
 
 export const API_URL = (process.env.EXPO_PUBLIC_API_URL ?? DEFAULT_API_URL).replace(/\/+$/, '');
 

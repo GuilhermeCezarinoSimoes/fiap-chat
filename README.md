@@ -169,7 +169,7 @@ Configuração: no projeto da API na Vercel, abra **Storage → Create → Blob*
 
 - **Tecnologia:** Node.js + Express 5 + TypeScript + Firebase Admin SDK.
 - **Hospedagem:** Vercel (HTTPS automático, Express detectado sem configuração a partir de `server/src/app.ts`).
-- **URL pública:** `https://SEU-PROJETO-API.vercel.app` ← **substituir pela URL publicada**.
+- **URL pública:** **https://fiap-chat-api.vercel.app** (verificação: https://fiap-chat-api.vercel.app/health).
 
 ### Endpoints
 
@@ -193,7 +193,7 @@ Erros retornam `{ "error": { "code", "message" } }` sem detalhes internos.
 ### Verificar a disponibilidade
 
 ```bash
-curl https://SEU-PROJETO-API.vercel.app/health
+curl https://fiap-chat-api.vercel.app/health
 ```
 
 ### Variáveis de ambiente (somente nomes; valores apenas na Vercel)

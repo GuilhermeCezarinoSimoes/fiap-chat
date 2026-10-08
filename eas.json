@@ -6,7 +6,7 @@
   "build": {
     "base": {
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://seu-projeto-api.vercel.app",
+        "EXPO_PUBLIC_API_URL": "https://fiap-chat-api.vercel.app",
         "EAS_PROJECT_ID": "COLE_AQUI_O_PROJECT_ID_DO_EAS"
       }
     },
