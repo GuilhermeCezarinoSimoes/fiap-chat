@@ -6,6 +6,22 @@ Aplicativo de chat em **React Native + Expo + TypeScript** com conversas individ
 
 - RM557724 — Guilherme Cezarino Simoes
 
+## Como testar (correção)
+
+| Item | Link |
+| --- | --- |
+| APK Android (build standalone, não precisa de servidor local) | [Página do build](https://expo.dev/accounts/guilhermecezarinosimeos/projects/fiap-chat/builds/ecceaaaa-e339-4089-b2bb-accf3d04c773) · [download direto do .apk](https://expo.dev/artifacts/eas/PYFm-2UEO1pPNZsfoFnC3nPMl5dVBdxBHj5XNwomECQ.apk) |
+| API online (HTTPS) | https://fiap-chat-api.vercel.app |
+| Verificação de integridade | https://fiap-chat-api.vercel.app/health |
+| Projeto Firebase | `fiap-chat-rm557724` |
+| Projeto EAS | `@guilhermecezarinosimeos/fiap-chat` |
+
+1. Instale o APK em **dois** aparelhos Android (ou em um aparelho e um emulador com Google Play) e crie duas contas.
+2. Inicie uma conversa individual ou crie um grupo e envie mensagens. Elas aparecem em tempo real nos dois aparelhos.
+3. Coloque um dos apps em segundo plano ou feche-o. A notificação push chega e, ao tocar nela, a conversa correta é aberta.
+
+A API já está publicada e configurada: não é necessário rodar nada localmente. **iOS:** o código e a configuração (`app.config.ts`) suportam iOS, mas gerar o app com push no iPhone exige uma conta paga do Apple Developer Program (veja a seção [Notificações no Android e no iOS](#notificações-no-android-e-no-ios)).
+
 ---
 
 ## Sumário
