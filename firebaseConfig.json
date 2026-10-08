@@ -1,9 +1,9 @@
 {
-  "apiKey": "COLE_AQUI_A_API_KEY",
-  "authDomain": "SEU-PROJETO.firebaseapp.com",
-  "databaseURL": "https://SEU-PROJETO-default-rtdb.firebaseio.com",
-  "projectId": "SEU-PROJETO",
-  "storageBucket": "SEU-PROJETO.firebasestorage.app",
-  "messagingSenderId": "000000000000",
-  "appId": "1:000000000000:android:0000000000000000000000"
+  "apiKey": "AIzaSyCqDCJfRhfh4T1E8v-m7iVl_XXsVUZm4xk",
+  "authDomain": "fiap-chat-rm557724.firebaseapp.com",
+  "databaseURL": "https://fiap-chat-rm557724-default-rtdb.firebaseio.com",
+  "projectId": "fiap-chat-rm557724",
+  "storageBucket": "fiap-chat-rm557724.firebasestorage.app",
+  "messagingSenderId": "127636032094",
+  "appId": "1:127636032094:web:aa88fd97dcf41f8d5782cf"
 }

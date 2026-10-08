@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "127636032094",
+    "firebase_url": "https://fiap-chat-rm557724-default-rtdb.firebaseio.com",
+    "project_id": "fiap-chat-rm557724",
+    "storage_bucket": "fiap-chat-rm557724.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127636032094:android:ef4fd4d4ad68db335782cf",
+        "android_client_info": {
+          "package_name": "br.com.fiap.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8F3J21yV8TICO6U7GEeP0ALRtyqvM2FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
