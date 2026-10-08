@@ -7,7 +7,7 @@
     "base": {
       "env": {
         "EXPO_PUBLIC_API_URL": "https://fiap-chat-api.vercel.app",
-        "EAS_PROJECT_ID": "COLE_AQUI_O_PROJECT_ID_DO_EAS"
+        "EAS_PROJECT_ID": "ffff2cc4-1ee9-4e67-b7ff-c3c4ecf8e8ef"
       }
     },
     "development": {

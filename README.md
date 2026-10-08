@@ -284,7 +284,7 @@ npm run typecheck
 **Android (FCM):**
 
 1. `google-services.json` na raiz (passo 7 da configuração do Firebase).
-2. No Firebase: *Configurações do projeto → Contas de serviço → Gerar nova chave privada* — use-a **somente** para cadastrar a credencial FCM v1 no EAS:
+2. Crie uma conta de serviço dedicada (neste projeto: `fiap-chat-fcm`) apenas com o papel **Administrador da API Firebase Cloud Messaging**, gere uma chave JSON e use-a **somente** para cadastrar a credencial FCM v1 no EAS:
 
    ```bash
    npx eas-cli@latest credentials

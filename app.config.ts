@@ -11,6 +11,7 @@ const iosGoogleServices = process.env.GOOGLE_SERVICE_INFO_PLIST ?? './GoogleServ
 const config: ExpoConfig = {
   name: 'FIAP Chat',
   slug: 'fiap-chat',
+  owner: 'guilhermecezarinosimeos',
   scheme: 'fiapchat',
   version: '1.0.0',
   orientation: 'portrait',
@@ -57,7 +58,7 @@ const config: ExpoConfig = {
   ],
   extra: {
     eas: {
-      projectId: process.env.EAS_PROJECT_ID,
+      projectId: process.env.EAS_PROJECT_ID ?? 'ffff2cc4-1ee9-4e67-b7ff-c3c4ecf8e8ef',
     },
   },
 };
