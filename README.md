@@ -7,6 +7,8 @@ Aplicativo de chat em **React Native + Expo + TypeScript** com conversas individ
 - RM557724 — Guilherme Cezarino Simoes
 - RM557813 — Fabrini Soares
 - RM556010 — Igor Soos
+- Thamiris Almeida - RM 559155
+- Werbeth Nunes - RM 559067
 
 ## Como testar (correção)
 
